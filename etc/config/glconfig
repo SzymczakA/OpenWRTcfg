@@ -1,0 +1,29 @@
+
+config service 'general'
+	option model 'mt750'
+	option port '83'
+	option language 'en'
+	option password '0a12319020d4bd5f0ab23a49fa14f38886b90c261f6be0ba87878a2633f5d2ac'
+
+config service 'ddns'
+	option enabled '1'
+
+config service 'download'
+
+config service 'adblock'
+	option enable '0'
+
+config service 'autoupdate'
+	option time '04:00'
+	option enable '0'
+
+config service 'samba'
+	option read_only 'yes'
+
+config service 'openvpn'
+	option enable '0'
+	option force '0'
+
+config service 'repeater'
+	option autoconnect '0'
+

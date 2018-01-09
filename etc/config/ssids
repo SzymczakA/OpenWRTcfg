@@ -1,0 +1,6 @@
+
+config network 'sta0'
+	option ssid 'LTE'
+	option encryption 'psk2'
+	option key 'gfdgfsgfd'
+
